@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/johanetox/redux-form_validate.svg?branch=master)](https://travis-ci.org/johanetox/redux-form_validate)
+
+[![Coverage Status](https://coveralls.io/repos/github/johanetox/redux-form_validate/badge.svg?branch=master)](https://coveralls.io/github/johanetox/redux-form_validate?branch=master)
+
 Redux Form Validate
 =========
 
