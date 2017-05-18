@@ -2,7 +2,7 @@ Redux Form Validate
 =========
 
 A small library for redux form to validate with joi-browser
-Tt basicaly recieve the `object` and a `schema` and return a new object with errors.
+It basicaly recieve the `object` and a `schema` and return a new object with errors.
 
 ## Installation
 
@@ -14,15 +14,17 @@ Tt basicaly recieve the `object` and a `schema` and return a new object with err
     var Validator = require('@johanetox/redux-form_validate');
     var validate = new Validator();
 
+
     // create a schema
     var schema = Joi.object().keys({
       name: Joi.string().required()
     });
 
+
     // validate it
     validate.validateInput({name: ''}, schema)
 
-  Output should be { name: '"name" is not allowed to be empty' }
+  Output should be `{ name: '"name" is not allowed to be empty' }`
   else if it is valid output should be an empty object
 
 
