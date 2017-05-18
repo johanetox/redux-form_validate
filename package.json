@@ -1,6 +1,6 @@
 {
   "name": "@johanetox/redux-form_validate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "validation library for Redux Form with joi",
   "main": "lib/validator.js",
   "scripts": {
