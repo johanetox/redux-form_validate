@@ -1,11 +1,14 @@
 {
-  "name": "@johanetox/redux-form_validate",
+  "name": "redux-form_validate",
   "version": "0.0.3",
   "description": "validation library for Redux Form with joi",
   "main": "lib/validator.js",
   "scripts": {
     "test": "mocha",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "dependencies": {
+    "project-name": "*"
   },
   "engines": {
     "node": ">=7.5.0"
